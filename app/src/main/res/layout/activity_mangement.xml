@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ListView
+        android:id="@+id/list_view_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/main" />-->
+    <!--&lt;!&ndash;android:text=" શ્રી ધીરૂભાઈ બી. વેકરીયા (ટ્રસ્ટી)"&ndash;&gt;-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/dhirubhai"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:textStyle="bold" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@drawable/bhavana" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/bhavnaben"-->
+    <!--android:textColor="@android:color/black" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/recyclerview"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/ghansyam" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/dhnsyam"-->
+    <!--android:textColor="@android:color/black" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/recyclerview"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/logo" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/shashikant"-->
+    <!--android:textColor="@android:color/black" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/recyclerview"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/naresh" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/nareshbhai"-->
+    <!--android:textColor="@android:color/black" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/recyclerview"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/haresh" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/hirenbhai"-->
+    <!--android:textColor="@android:color/black" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/recyclerview"-->
+
+    <!--android:padding="5dp"-->
+    <!--card_view:cardCornerRadius="5dp"-->
+    <!--card_view:cardElevation="5dp"-->
+    <!--card_view:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/usha" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="5dp"-->
+    <!--android:text="@string/ushaben"-->
+    <!--android:textColor="@android:color/black" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="gone">-->
+
+    <!--<WebView-->
+    <!--android:id="@+id/manwebview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scrollbars="none"></WebView>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skyzone18.ManMandirVidyalay">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyArx1MNgmVlmlajotC7ASk8SCNVPdbU0KQ" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" >
+            <!--<intent-filter>-->
+                <!--<action android:name="homework"></action>-->
+                <!--<category android:name="android.intent.category.DEFAULT"></category>-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".Activity.SlashActvity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Firebase Notifications -->
+        <service android:name=".Notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Notification.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+        <activity
+            android:name=".Activity.ContactActivity"
+            android:label="@string/contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AboutActivity"
+            android:label="@string/app_about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AcademicActivity"
+            android:label="@string/app_academics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ActvitiesActivity"
+            android:label="@string/app_actvitices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.FacilityActivity"
+            android:label="@string/app_faci"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AdmissionActivity"
+            android:label="@string/app_admission"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.AimActivity"
+            android:label="@string/app_aim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MangementActivity"
+            android:label="@string/app_man"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.StudentLoginActivity"
+            android:label="@string/app_student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.NewsActivity"
+
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="news"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JsonActivity.EventActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.ShowPhotodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.VideoyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.ShowVideoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".JsonActivity.NoticeActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="notice"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JsonActivity.TodayActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.StaffActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.DownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.MediumstdActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="homework"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JsonActivity.HomeWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.HomeDetailActvity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.StudentResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JsonActivity.StanderActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.TrustActivity"></activity>
+        <activity
+            android:name=".Studentlogin.Activity.LoginExamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Studentlogin.Activity.LoginMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Studentlogin.Activity.LoginExamResultViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Studentlogin.Activity.LoginExamlistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Studentlogin.Activity.LoginFeesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Studentlogin.Activity.LoginUserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Studentlogin.Activity.LoginStudentListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

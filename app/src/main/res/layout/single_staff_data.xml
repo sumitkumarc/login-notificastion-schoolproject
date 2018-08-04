@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cardCornerRadious"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/imgcard"
+                android:layout_width="90dp"
+                android:layout_height="fill_parent"
+                app:cardCornerRadius="@dimen/cardCornerRadious"
+                app:cardElevation="1dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/sta_img"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nopicstaff" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/sta_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgcard"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sta_quli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sta_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imgcard"
+                android:text="Qualificatin"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtstafposition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sta_quli"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imgcard"
+                android:text="Designation"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">મનમંદિર વિદ્યાલય</string>
+
+    <string name="app_home">હોમ</string>
+    <string name="app_about">અમારા વિશે</string>
+    <string name="app_academics">શૈક્ષણિક</string>
+    <string name="app_actvitices">પ્રવૃત્તિ</string>
+    <string name="app_admission">પ્રવેશ પ્રક્રિયા</string>
+    <string name="app_aim">શાળાનો હેતુ</string>
+    <string name="app_faci">સુવિધા</string>
+    <string name="app_man">મેનેજમેન્ટ</string>
+    <string name="app_sta">સ્ટાફ</string>
+    <string name="app_ntc">નોટિસ</string>
+    <string name="app_news">આચાર્યની માહિતી</string>
+    <string name="app_gallery">ગેલેરી</string>
+    <string name="app_video">વિડિઓ</string>
+    <string name="app_student">વિદ્યાર્થી પ્રવેશ</string>
+    <string name="home_section">વિભાગ</string>
+    <string name="home_work">ધોરણ</string>
+    <string name="home_dis">હોમ વર્ક વિગત</string>
+    <string name="show_gallry">ગેલેરી બતાવો</string>
+    <string name="contact">અમારો સંપર્ક માટે</string>
+    <string name="today">સમાચાર</string>
+    <string name="event">ઇવેન્ટ</string>
+    <string name="download">અસાયમેન્ટ ડાઉનલોડ કરો</string>
+    <string name="home_works">ગૃહ કાર્ય</string>
+    <string name="share">શેર કરો</string>
+    <string name="rate_us">રેટ કરો</string>
+    <string name="holiday">રજા</string>
+    <string name="results">સ્કૂલ પરિણામ</string>
+    <string name="action_language">ભાષા</string>
+    <string name="dhirubhai">શ્રી ધીરૂભાઈ બી. વેકરીયા (ટ્રસ્ટી)</string>
+    <string name="ushaben">ઉષાબેન ખંડહર (કલાર્ક)</string>
+    <string name="hirenbhai"> હિરેનભાઈ ઈટાલીયા \n(એપ્લિકેશન/સ્કૂલ.સોફ્ટવેર મેનેજર)</string>
+    <string name="nareshbhai">શ્રી નરેશભાઈ વળવી (સુપરવાયસર)</string>
+    <string name="shashikant"> શ્રી શશીકાંતભાઈ મુંગલપરા (સુપરવાયસર)</string>
+    <string name="dhnsyam">શ્રી ઘનશ્યામભાઈ વી. ઘેવરિયા(પ્રિન્સિપાલ)</string>
+    <string name="bhavnaben">શ્રી ભાવનાબેન ડી. વેકરીયા(મંત્રી)</string>
+    <string name="player_error">YouTube પ્લેયર પ્રારંભ કરવામાં ભૂલ: %s</string>
+
+
+    <string name="schoolfoldername">data_manmandir</string>
+
+    <string name="String">હું તમારી સાથે આ શેર કરવા માંગો છો અહીં તમે PlayStore માંથી આ એપ્લિકેશનને ડાઉનલોડ કરી શકો છો</string>
+
+    <string name="navigation_drawer_open">સંશોધક ડ્રોવરને ખોલો</string>
+    <string name="navigation_drawer_close">નેવિગેશન ડ્રોવર બંધ કરો</string>
+
+    <string name="action_settings">સેટિંગ્સ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">ખાલી ટુકડો હેલો</string>
+
+</resources>

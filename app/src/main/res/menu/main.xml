@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/noti"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_language">-->
+        <!--<menu-->
+            <!--android:id="@+id/action_language"-->
+            <!--android:checkable="true"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="@string/action_language">-->
+            <!--<item-->
+                <!--android:id="@+id/action_english"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title="English" />-->
+            <!--<item-->
+                <!--android:id="@+id/action_gujarati"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title="ગુજરાતી" />-->
+            <!--<item-->
+                <!--android:id="@+id/action_hindi"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title="हिन्दी " />-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

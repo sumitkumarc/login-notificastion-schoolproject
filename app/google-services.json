@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "745855282390",
+    "firebase_url": "https://aspire1-157504.firebaseio.com",
+    "project_id": "aspire1-157504",
+    "storage_bucket": "aspire1-157504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:478e2863394a2dd2",
+        "android_client_info": {
+          "package_name": "com.skyzone.aspire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745855282390-0v5jq3hlhoneukm47l8m22t4m96i01jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skyzone.aspire",
+            "certificate_hash": "55331dd6e64b1e86f5c6cd60d19f865a2686032b"
+          }
+        },
+        {
+          "client_id": "745855282390-rcqrgn01no3igeu8hcndpa8knuovlbuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9qG5-87bvpKqbC5R4bFefo5E3dcLo61g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745855282390-rcqrgn01no3igeu8hcndpa8knuovlbuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:501d8c50ba625b5c",
+        "android_client_info": {
+          "package_name": "com.skyzone18.ManMandirVidyalay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745855282390-rcqrgn01no3igeu8hcndpa8knuovlbuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9qG5-87bvpKqbC5R4bFefo5E3dcLo61g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ccd176091eed10ba",
+        "android_client_info": {
+          "package_name": "com.skyzone18.nalandavidhyalay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745855282390-rcqrgn01no3igeu8hcndpa8knuovlbuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9qG5-87bvpKqbC5R4bFefo5E3dcLo61g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
